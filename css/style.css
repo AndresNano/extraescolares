@@ -1,0 +1,57 @@
+body {
+    background: rgb(207, 228, 255);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    height: 100vh; /* Opcional: ajusta la altura al 100% del viewport */
+}
+
+.opciones {
+    background: rgb(243, 250, 248);
+    width: 80%;
+    height: 90vh;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(56, 56, 56, 0.16);
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    width: 100vh;
+}
+
+
+.btns a {
+    background-color: rgb(34, 154, 252);
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: azure;
+    margin: 2%;
+}
+
+.btns a:hover {
+    background-color: rgb(31, 137, 224);
+}
+
+button {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(31, 137, 224, 0);
+    border: none;
+    color: azure;
+    cursor: pointer;
+}
+
+.titulo {
+    margin-top: 90px;
+}
